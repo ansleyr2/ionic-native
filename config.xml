@@ -86,13 +86,13 @@
     <plugin name="cordova-plugin-contacts" spec="3.0.1" />
     <plugin name="cordova-plugin-x-toast" spec="2.7.2" />
     <plugin name="cordova-plugin-googlemaps" spec="https://github.com/mapsplugin/cordova-plugin-googlemaps#multiple_maps">
-        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyBEppOEYYGvW1Mi0kjsVNItxOM74H8Bfj0" />
-        <variable name="API_KEY_FOR_IOS" value="AIzaSyBEppOEYYGvW1Mi0kjsVNItxOM74H8Bfj0" />
+        <variable name="API_KEY_FOR_ANDROID" value="" />
+        <variable name="API_KEY_FOR_IOS" value="" />
         <variable name="PLAY_SERVICES_VERSION" value="15.0.1" />
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
     </plugin>
-    <preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="AIzaSyBEppOEYYGvW1Mi0kjsVNItxOM74H8Bfj0" />
-    <preference name="GOOGLE_MAPS_IOS_API_KEY" value="AIzaSyBEppOEYYGvW1Mi0kjsVNItxOM74H8Bfj0" />
+    <preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="" />
+    <preference name="GOOGLE_MAPS_IOS_API_KEY" value="" />
     <plugin name="cordova-plugin-brightness" spec="0.2.0" />
     <engine name="android" spec="7.1.4" />
 </widget>
