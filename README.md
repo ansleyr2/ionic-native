@@ -24,8 +24,9 @@ If you want you bundle your app for using on mobile device.
 ```
 
 ### Before use this demo...
-````Please replace (API key) in config.xml and package.json files with your API keys.
-Follow the steps as on https://developers.google.com/maps/documentation/javascript/get-api-key  
+````
+Please replace (API key) in config.xml and package.json files with your API keys.
+Follow the steps as on https://developers.google.com/maps/documentation/javascript/get-api-key   for getting your API key
 ````
 
 ### Installing
