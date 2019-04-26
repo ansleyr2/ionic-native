@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Brightness
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        <ion-label>Adjust the Brightness of your device</ion-label>
+    </ion-item>
+    <ion-button expand="full" (click)="setBrightness(0.1)">Dim</ion-button>
+    <br/>
+    <ion-button expand="full" (click)="setBrightness(0.5)">Mid</ion-button>
+    <br/>
+    <ion-button expand="full" (click)="setBrightness(1.0)">Bright</ion-button>
+    <br/>
+    <ion-item>
+        <ion-label>Or use the slider below</ion-label>
+    </ion-item>
+    <br/>
+  <!-- <ion-input placeholder="First Name" ></ion-input>
+    <ion-input placeholder="Last Name"></ion-input>
+
+    <ion-input placeholder="Number" type="number" ></ion-input>
+    <br/>
+    <ion-button expand="full" (click)="createContact()">Create Contact</ion-button> -->
+
+  <!-- <form (ngSubmit)="createContact()">
+    <ion-item>
+      <ion-label>First Name</ion-label>
+      <ion-input type="text" [(ngModel)]="createConact.fname" name="fName"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Last Name</ion-label>
+      <ion-input type="text" [(ngModel)]="createConact.lname" name="lName"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Number</ion-label>
+      <ion-input type="number" [(ngModel)]="createConact.number" name="number"></ion-input>
+    </ion-item>
+    <br/>
+    <ion-button expand="full" type="submit" block>Create Contact</ion-button>
+  </form> -->
+    <mat-slider
+    class="example-margin"
+    [disabled]="disabled"
+    [invert]="invert"
+    [max]="max"
+    [min]="min"
+    [step]="step"
+    [thumbLabel]="thumbLabel"
+    [tickInterval]="tickInterval"
+    [(ngModel)]="value"
+    [vertical]="vertical"
+    (change)="sliderChanged($event)"
+    >
+    </mat-slider>
+
+    {{value}}
+
+  </ion-content> 
